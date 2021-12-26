@@ -58,6 +58,13 @@ Code example:
     }
     })
 ***
- Experience: without work experience.
- ***
+Experience: without work experience.
+***
+Education: Grodn state medical university (pediatric surgeon).
+***
+Laguages:
+ 1. English(A1) + medical english;
+ 2. Belarusian;
+ 3. Russian.
+***
 
