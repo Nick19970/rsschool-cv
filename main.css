@@ -35,20 +35,21 @@ p {
 
 .container {
     width: 1170px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0;
 }
 
 .photo {
     padding-top: 10px;
-    margin-left: 550px;
+    margin: auto;
+    padding-left: 50px;
 }
 
 .nav {
     padding-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: blue;
     color: white;
 }
