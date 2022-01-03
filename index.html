@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Adamenko TOP</title>
+    <title>Adamenko</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/ css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
@@ -11,77 +11,97 @@
 
 <body>
     <header id="header" class="header">
-        <div class="container">
-
-            <div class="wrapper">
-                <br class="offer">
-                <h1 class="title">
-                    С помощью верстки<br> я создам ту жизнь, о которой<br>
-                    <span>мечтаю!</span>
-                </h1>
-
-                <p class="intro">
-                    Я постоянно хочу учиться новому. Моя сила заключается в постоянном стремлении к работе<br> Я очень честный человек с хорошим чувством юмора.<br> На данный момент я разрабатываю свой л.
-                </p>
-                <a href="#" class="button">Двигаться к мечте!</a>
-            </div>
-
-            <img src="img/desktop.png" alt="desktop" class="desktop">
-        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
         </div>
     </header>
-    <section id="learn" class="learn">
-        <div class="container">
-            <h2 class="section-title">Что меня ждет впереди</h2>
-            <div class="skills">
-                <div class="skill">
-                    <h3 class="skill-title">
-                        Свободное время
-                    </h3>
-                    <p class="skill-text">
-                        Мне нужно свободное время на семью и самое настоящее
+    <main>
+        <img src="img/photo.jpg" height=290px width=240px alt="I am" class="photo">
+        <div class="info">
+
+            <div class="info">
+                <h1>Adamenko Nikita</h1>
+
+                <hr class="hr-horizontal-gradient">
+
+                <h2 class="child">About me</h2>
+                <p>I am determined to learn new things. My strength lies in perseverance and hard work.<br>
+                     I am a very cheerful person with a good sense of humor.<br> 
+                     At the moment I am developing my own website.</p>
+
+                <hr class="hr-horizontal-gradient">
+
+                <h2 class="child">Contacts</h2>
+                    <ul>
+                        <li>Email: adamenko.nikita@mail.ru</li>
+                        <li>Discord: Nikita Adamenko(Nick19970).</li>
+                        <li>Instagram: reamuccallya.</li>
+                        <li>GitHub: Nick19970.</li>
+                    </ul>
+
+                <hr class="hr-horizontal-gradient">
+
+                <h2 class="child">My skills</h2>
+                <ul>
+                    <li>HTML.</li>
+                    <li>CSS.</li>
+                    <li>JS(beginner).</li>
+                    <li>Git.</li>
+                    <li>Figma.</li>
+                </ul>
+
+                    <hr class="hr-horizontal-gradient">
+
+                <h2 class="child">Example of code</h2>
+                    <p>
+                        <code>
+                            const changeClass = el => {<br>
+                            for(let i = 0; i < tabs.children.length; i++) {<br>
+                                tabs.children[i].classList.remove('active');<br>
+                                }<br>
+                            el.classList.add('active');<br>
+                            }<br>
+                        </code>
                     </p>
-                </div>
-                <div class="skill skill-free">
-                    <h3 class="skill-title">
-                        Яркие путешествия
-                    </h3>
-                    <p class="skill-text">
-                        Работать откуда удобно - что может быть лучше?
-                    </p>
-                </div>
-                <div class="skill skill-change">
-                    <h3 class="skill-title">
-                        Создание ценности
-                    </h3>
-                    <p class="skill-text">
-                        Нет ничего сильнее, чем жить не просто так, создавая ценность
-                    </p>
-                </div>
+
+                    <hr class="hr-horizontal-gradient">
+
+                <h2 class="child">My projects</h2>
+                <p>
+                    <a href="http://adamenle.beget.tech">My first site</a><br>
+                    <a href="https://www.figma.com/file/F7wE4ww8qV0W5NdYHdspZH/Velocity?node-id=21609%3A139">My first design</a><br>
+                    <a href="https://drive.google.com/file/d/1DtJXGAIUlVKGqZgDs04x6P4b_taNJSGs/view?usp=sharing">My first victorine</a><br>
+                    <a href="https://Nick19970.github.io/rsschool-cv/">My first CV</a><br>
+                </p>
+
+                <hr class="hr-horizontal-gradient">
+
+                <h2 class="child">Education and English</h2>
+                <p>Grodno state medical university(pediatric surgeon).</p>
+                <p>English(A1) + medical english</p>
+
+                <hr class="hr-horizontal-gradient">
+
             </div>
         </div>
-    </section>
-    <section id="mail" class="mail">
-        <div class="container">
-            <h2 class="section-title st-two">Форма заказа билета в будущее</h2>
-            <form action="#" class="form">
-                <input type="Имя" placeholder="Имя" name="Имя" class="input" required>
-                <input type="Еmail" placeholder="E-mail" name="Е-mail" class="input" required>
-                <input type="Телефон" placeholder="Телефон" name="Телефон" class="input" required>
-                <input type="Куда я полечу в ближайшее время" placeholder="Куда я полечу в ближайшее время" name="Куда я полечу в ближайшее время" class="input" required>
-                <button type="submit" class="button btn-form">Двигаться к мечте!</button>
-            </form>
-
-        </div>
-    </section>
-
-    <footer id="footer" class="footer">
-        <div class="container">
-            <p class="credits">
-                &copy Adamenko Nikita
-            </p>
-        </div>
+    </main>
+    
+    <footer class="footer">
+        <img src="img/rs_school_js.svg" width=10% alt="logo" class="logo">
+        <span class="link"><a href="https://rs.school/js/">Link to course</a></span>
+        <span class="link"> <a href="https://github.com/Nick19970">Link to github</a></span>
+        <span class="link">2021</span>
     </footer>
+
 </body>
 
 </html>
