@@ -5,27 +5,29 @@
     <meta charset="UTF-8">
     <title>Adamenko</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/ css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body class="container">
     <header id="header" class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
-            </ul>
-        </nav>
+        <div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
-        <img src="img/photo.jpg" height=290px width=240px alt="I am" class="photo" style="margin: auto; display: block;">
+
+        <img src="img/photo.jpg" alt="I am" class="photo" style="margin: auto; display: block;">
         <div class="info">
 
             <div class="info">
@@ -65,7 +67,7 @@
                     <p>
                         <code>
                             const changeClass = el => {<br>
-                            for(let i = 0; i < tabs.children.length; i++) {<br>
+                            for(let i = 0; i tabs.children.length; i++) {<br>
                                 tabs.children[i].classList.remove('active');<br>
                                 }<br>
                             el.classList.add('active');<br>
@@ -96,7 +98,7 @@
     </main>
     
     <footer class="footer">
-        <img src="img/rs_school_js.svg" width=10% alt="logo" class="logo">
+        <img src="img/rs_school_js.svg" alt="logo" class="logo">
         <span class="link"><a href="https://rs.school/js/">Link to course</a></span>
         <span class="link"> <a href="https://github.com/Nick19970">Link to github</a></span>
         <span class="link">2021</span>
