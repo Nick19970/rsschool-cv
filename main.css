@@ -40,6 +40,8 @@ p {
 }
 
 .photo {
+    height: 290px;
+    width: auto;
     padding-top: 10px;
     margin: auto;
     padding-left: 50px;
@@ -62,7 +64,7 @@ p {
     list-style-type: none;
 }
 .nav-link {
-    decortion: none;
+    decoration: none;
     color:aliceblue;
 }
 .nav-item{
@@ -107,4 +109,8 @@ h1{
 
 ul{
     padding-left:  3%;
+}
+
+.logo{
+    width: 9%;
 }
